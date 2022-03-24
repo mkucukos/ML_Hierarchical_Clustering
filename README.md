@@ -1,10 +1,10 @@
-# K-means_clustering
-
-I try to cluster the data based on the features such as age, gender, annual income, and spending score. Customer behavior and purchase data are among the aspects that influence a consumer's spending Score. I used the elbow method to choose the number of clusters by fitting the model with a range of values for K. From K=5, the WCSS (the sum of squared distances between each point and the cluster's centroid) begins to move practically parallel to the X-axis. The model output for 5 clusters was visualized in 2D as a function of annual income and spending score.
+# Hierarchical_Clustering
+I try to cluster the data based on the features such as age, gender, annual income, and spending score. Customer behaviour and purchase data are among the aspects that influence a consumer's spending Score. I used the dendrogram to find the level for the threshold of the optimal number of clusters that suits this project. I found the optimal number of clusters by looking at the largest distance when moving the horizontal line vertically. The longest vertical distance that does not cross over each dendrogram was K=3 and K=5. The model output for K=3 and 5 clusters were visualized in 2D as a function of annual income and spending score.
 
 ```bash
 $ pip install -r requirement.txt
 ```
 ![model's output](./figure1.png)
 ![model's output](./figure2.png)
+![model's output](./figure3.png)
 
